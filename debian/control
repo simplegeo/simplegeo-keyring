@@ -1,0 +1,13 @@
+Source: simplegeo-keyring
+Section: misc
+Priority: optional
+Maintainer: Ian Eure <ian@simplegeo.com>
+Standards-Version: 3.8.4
+
+Package: simplegeo-keyring
+Priority: important
+Architecture: all
+Depends: gnupg (>= 1.0.6-4)
+Description: GnuPG keys of the SimpleGeo archive
+ SimpleGeo digitally signs its Release files. This package contains
+ the archive keys used for that.

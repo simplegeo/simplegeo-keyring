@@ -1,0 +1,11 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+adeceae3b0a96575bb59847ae7f7a05e  keyrings/simplegeo-master-keyring.gpg
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkwFnWEACgkQHJcvLJR6wWoOBwCgg72jaBl2sL0/z3tQG5w0N9nt
+mCcAnj0tgRY4ofIsalzkuDuCATi4h6b0
+=q3Xo
+-----END PGP SIGNATURE-----
