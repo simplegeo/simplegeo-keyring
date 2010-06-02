@@ -27,11 +27,14 @@ binary-indep: checkroot
 	$(checkdir)
 	-rm -rf debian/tmp
 	$(install_dir) debian/tmp/DEBIAN/
-	$(install_script) debian/postinst debian/tmp/DEBIAN/
 
 	$(install_dir) debian/tmp/usr/share/keyrings/
 	$(install_file) keyrings/simplegeo-master-keyring.gpg debian/tmp/usr/share/keyrings/
 	$(install_file) keyrings/simplegeo-master-removed-keys.gpg debian/tmp/usr/share/keyrings/
+	$(install_dir) debian/tmp/var/lib/apt/keyrings/
+	$(install_file) keyrings/simplegeo-master-keyring.gpg debian/tmp/var/lib/apt/keyrings/
+	$(install_dir) debian/tmp/etc/apt/trusted.gpg.d/
+	$(install_file) keyrings/simplegeo-master-keyring.gpg debian/tmp/etc/apt/trusted.gpg.d/
 
 	$(install_dir) debian/tmp/usr/share/doc/simplegeo-keyring/
 	$(install_file) README debian/tmp/usr/share/doc/simplegeo-keyring/
