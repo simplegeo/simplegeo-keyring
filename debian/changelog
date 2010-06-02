@@ -1,3 +1,9 @@
+simplegeo-keyring (2010.06.02) unstable; urgency=low
+
+  * Fix keyring installation.
+
+ -- Ian Eure <ian@simplegeo.com>  Wed, 02 Jun 2010 10:19:36 -0700
+
 simplegeo-keyring (2010.06.01) simplegeo-development; urgency=low
 
   * Package.
